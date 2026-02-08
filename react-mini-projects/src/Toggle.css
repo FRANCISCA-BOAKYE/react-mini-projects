@@ -1,0 +1,36 @@
+.toggle-container {
+  padding: 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  width: 250px;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.2s ease;
+}
+
+.toggle-container:hover {
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.toggle-container button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.toggle-container button:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-1px);
+  transition: 0.2s ease;
+}
+
+.toggle-container p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #10b981; /* green text */
+}

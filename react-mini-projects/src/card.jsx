@@ -1,7 +1,8 @@
+import "./Card.css";
 
 function Card({ title, description, buttonText }) {
   return (
-    <div style={{ border: "1px solid #ccc", padding: "16px", width: "200px" }}>
+    <div className="card">
       <h3>{title}</h3>
       <p>{description}</p>
       <button>{buttonText}</button>
