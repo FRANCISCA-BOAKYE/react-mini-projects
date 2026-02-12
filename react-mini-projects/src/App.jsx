@@ -38,7 +38,7 @@ function App() {
           />
           <Card
             title="Code"
-            description="Enjoy coding  and learning"
+            description="Enjoy coding cd and learning"
             buttonText="Let's Go"
           />
           
