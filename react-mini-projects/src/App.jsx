@@ -2,13 +2,15 @@ import { useState } from "react";
 import Card from "./card";
 import Counter from "./counter";
 import Toggle from "./Toggle";
+import "./App.css";
+
 
 function App() {
   const [page, setPage] = useState("card");
 
   return (
-    <div style={{ padding: "20px" }}>
-      <h1>My React Mini Projects</h1>
+    <div className="app-container">
+      <h1> --- React Mini Projects---</h1>
 
       {/* Navigation */}
       <div style={{ marginBottom: "20px" }}>
@@ -31,15 +33,15 @@ function App() {
           />
           <Card
             title="Practice"
-            description="Build confidence"
+            description="Build confidence  through practice"
             buttonText="Go"
           />
           <Card
             title="Code"
-            description="Enjoy coding"
+            description="Enjoy coding  and learning"
             buttonText="Let's Go"
           />
-          <break />
+          
           <Card
             title="JAVASCRIPT"
             description="Master JavaScript fundamentals"

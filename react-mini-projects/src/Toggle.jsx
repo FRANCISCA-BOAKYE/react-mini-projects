@@ -8,15 +8,15 @@ function Toggle() {
   return (
     <div style={{ padding: "20px" }}>
       <button onClick={() => setShow(!show)}>
-        {show ? "Hide" : "Show"} Content
+        {show ? "Hide" : "Show"} 
       </button>
 
       {show && 
         <div style={{ marginTop: "20px" }}>
           <Card
-            title="TOGGLE COMPONENT"
-            description="Click the button to toggle this content"
-            buttonText="Toggle"
+            title="Dance"
+            description="Feel the rhythm and dance to the beat"
+            buttonText="Let's Dance"
           />
         </div>
       }
